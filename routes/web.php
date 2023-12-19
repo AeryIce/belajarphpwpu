@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/materi1', function () {
     return view('belajarphpwpu/materi1');
 });
+Route::get('/materi2',function (){
+    return view('belajarphpwpu/materi2');
+});
    
